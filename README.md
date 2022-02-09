@@ -26,14 +26,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./build/img/captura.png)
+![](./capture.png)
 
 Add a screenshot of my solution. 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/sskaren1/stats-preview-card-component.git)
-- Live Site URL: [Add live site URL here](https://sk1-stats-preview-card.netlify.app)
+- Solution URL: [Add solution URL here](https://github.com/sskaren1/Testimonials-grid-section.git)
+- Live Site URL: [Add live site URL here](https://sskaren1.github.io/Testimonials-grid-section/)
 
 ## My process
 
@@ -41,6 +41,7 @@ Add a screenshot of my solution.
 - HTML5 markup
 - CSS custom properties
 - Flexbox
+- Grid
 - SASS
 - Mobile-first workflow
 - Responsive layout

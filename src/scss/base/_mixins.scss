@@ -1,0 +1,15 @@
+/** Media Queries **/
+@use 'variables' as v;
+
+// Media queries
+@mixin tablet {
+    @media (min-width: v.$tablet) {
+        @content;
+    }
+}  
+@mixin desktop {
+    @media (min-width: v.$desktop) {
+        @content;
+    }
+}
+

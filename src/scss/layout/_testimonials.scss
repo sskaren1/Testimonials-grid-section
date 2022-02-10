@@ -8,7 +8,10 @@
     align-items: center;
     background-color: c.$color-5;
     padding: 1rem 0;
-    width: 100%;
+    width: 80%;
+    @include m.desktop{
+        width: 80%;
+    }
     .testimonials__container{
         display: flex;
         flex-direction: column;
@@ -17,8 +20,6 @@
             grid-auto-flow: dense;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(2, min-content);
-            // grid-template-columns: repeat(2, minmax(15rem,1fr));
-            // grid-template-rows: repeat(2, min-content);
             column-gap: 2rem;
             row-gap: 2rem;
         }
@@ -37,7 +38,7 @@
     background-color: c.$color-1;
     border-radius: 0.8rem;
     margin: 0 auto 2rem;
-    padding: 3rem;
+    padding: 1.8rem 2.6rem;
     width: 40%;
     min-width: 25rem;
 
@@ -54,10 +55,8 @@
     }
     .testimonial__paragraph{
         font-size: 1.2rem;
-        margin-bottom: 1.5rem;
-        line-height: 1.5rem;
+        line-height: 1.8rem;
         font-weight: v.$semi-bold;
-        width: 100%;
         opacity: 0.5;
     }
 }

@@ -1,0 +1,12 @@
+@use 'variables' as v;
+@use 'colours' as c;
+@use 'mixins' as m;
+
+body{
+    font-family:v.$secondary-font;
+}
+h1, h2, h3 {
+    font-family: v.$main-font;
+    text-align: center;    
+}
+
